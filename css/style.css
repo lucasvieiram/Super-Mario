@@ -27,6 +27,13 @@ font-family: 'Poppins', sans-serif;
     width: 80px;
     animation: pipe-animation 2.0s infinite linear ;
 }
+.anjo {
+    position: absolute;
+    bottom:90px;
+    width: 80px;
+    animation: anjo-animation 4.0s infinite linear ;
+}
+
 
 .mario{
     width: 150px;
@@ -35,6 +42,10 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+.crouch {
+    height: 75px; /* Altura menor para o Mario agachado */
+    /* Outras propriedades de estilo para o Mario agachado */
+  }
 
 .jump{
     animation: jump 500ms ease-out;
@@ -98,4 +109,13 @@ font-family: 'Poppins', sans-serif;
     to {
         right: 100%;
     }
+}
+@keyframes anjo-animation {
+    from{
+        right: -50%;
+    }
+    to{
+        right: 100%;
+    }
+    
 }
